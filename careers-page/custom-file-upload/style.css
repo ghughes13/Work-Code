@@ -1,0 +1,43 @@
+/*Change the .careers-page 'file upload el ID' to the forrect file upload ID*/
+
+#upload-section {
+    background: #F8F8F8;
+    border: solid #B7B7B7 2px !important;
+    border-radius: 0;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 4px 15px;
+    text-align: center;
+    cursor: pointer;
+    color: #868686;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-align: left;
+}
+
+.careers-page FILE-UPLOAD-EL-ID {
+    padding: 10px 40px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#upload-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-box {
+    background-image: linear-gradient(to right, #FF4959 0%, #FFC21D 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 2px 20px;
+}
