@@ -1,8 +1,8 @@
 /*Change the .careers-page 'file upload el ID' to the forrect file upload ID*/
 
 #upload-section {
-    background: #F8F8F8;
-    border: solid #B7B7B7 2px !important;
+    background: transparent;
+    border: solid white 1px !important;
     border-radius: 0;
     max-width: 100%;
     width: 100%;
@@ -10,13 +10,16 @@
     padding: 4px 15px;
     text-align: center;
     cursor: pointer;
-    color: #868686;
-    font-weight: bold;
-    font-family: 'Open Sans';
-    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Lato';
+    font-size: 16px;
     text-align: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
 .careers-page FILE-UPLOAD-EL-ID {
     padding: 10px 40px;
     opacity: 0;
@@ -35,7 +38,7 @@
     justify-content: space-between;
 }
 
-.upload-box {
+.upload-box { /*This is the upload button on the right that says "Select Files" */
     background-image: linear-gradient(to right, #FF4959 0%, #FFC21D 100%);
     border-radius: 20px;
     color: white;

@@ -9,7 +9,8 @@ jQuery('.ginput_container_fileupload').append('<div id="upload-section"><span cl
         alert("File Uploaded")
     });
 
-jQuery(idSelector).change(function() {
-     let word = document.getElementById(idSelector).value.split('path\\')
+/*This changes the text to the name of the file that was uploaded*/
+jQuery(idSelector).change(function() { 
+     let word = document.getElementById(/*ADD 'idSelector' WITHOUT THE '#' HERE*/).value.split('path\\')
      document.querySelector('.upload-text').innerText = word[word.length - 1];
 })
